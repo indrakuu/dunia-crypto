@@ -20,6 +20,7 @@
   </header>
   <div class="page-section">
     <div class="container">
+      <div class="table-responsive">
         <table id="example" class="table table-striped table-hover">
           <thead>
             <tr>
@@ -76,6 +77,7 @@
             </tr>
           </tfoot>
         </table>
+      </div>
     </div>
   </div>
 @endsection
