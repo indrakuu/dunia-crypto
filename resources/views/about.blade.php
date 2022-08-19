@@ -7,7 +7,7 @@
         <div class="col-md-6">
           <nav aria-label="Breadcrumb">
             <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
               <li class="breadcrumb-item active">About</li>
             </ul>
           </nav>
@@ -23,7 +23,7 @@
           <h2 class="title-section">About DuniaCrypto</h2>
           <div class="divider"></div>
           <p>Welcome to <a href="{{ route('home') }}">DuniaCrypto</a>, a place where everyone can see the price development of crypto assets or exchanges easily and conveniently. Make cryptocurrencies discoverable globally as efficiently as possible displaying impartial, high-quality and accurate information, and being able to draw conclusions based on their own understanding.</p>
-          <p>The data displayed comes from the <a href="https://coinmarketcap.com/api/" rel="nofollow">CoinMarketCap API</a> which can be viewed directly based on the available documentation. Then the data may not be the same as the one on the CoinMarketCap site because the data provided is slightly delayed and limited and the API used uses the Basic version. So that one of the main features in monitoring crypto coin data graphically in real time is not available. Therefore, if you want to develop it again, please <a href="#">download</a> this project and upgrade the API version on <a href="https://coinmarketcap.com/" rel="nofollow">CoinMarketCap</a>.</p>
+          <p>The data displayed comes from the <a href="https://coinmarketcap.com/api/" rel="nofollow">CoinMarketCap API</a> which can be viewed directly based on the available documentation. Then the data may not be the same as the one on the CoinMarketCap site because the data provided is slightly delayed and limited and the API used uses the Basic version. So that one of the main features in monitoring crypto coin data graphically in real time is not available. Therefore, if you want to develop it again, please <a href="https://github.com/indrakuu/dunia-crypto">download</a> this project and upgrade the API version on <a href="https://coinmarketcap.com/" rel="nofollow">CoinMarketCap</a>.</p>
         </div>
         <div class="col-lg-6 py-3">
           <div class="img-fluid py-3 text-center">

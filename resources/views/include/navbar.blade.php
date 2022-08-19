@@ -23,7 +23,7 @@
               <a class="nav-link" href="{{ route('about') }}">About</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-2" href="#">Download Project</a>
+              <a class="btn btn-primary ml-lg-2" href="https://github.com/indrakuu/dunia-crypto">Download Project</a>
             </li>
           </ul>
         </div>
