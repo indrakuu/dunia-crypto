@@ -22,8 +22,6 @@
                                 <div class="avatar">
                                     <img src="{{ $data['logo'] }}" alt="">
                                 </div>
-                                Weekly Visitor :
-                                <span class="badge badge-success">{{ number_format($data['weekly_visits'],0) }}</span>
                             </div>
                             <div class="post-sharer">
                                 <a href="{{ implode(",", $data['urls']['website']) }}" target="_blank" rel="nofollow"
@@ -46,6 +44,8 @@
                             <span class="icon">
                                 <span class="mai-information-circle"></span>
                             </span> <a href="#">{{ date('D d M Y', strtotime($data['date_launched']) )}}</a>
+                            | Weekly Visitor :
+                                <span class="badge badge-success">{{ number_format($data['weekly_visits'],0) }}</span>
                         </div>
                     </div>
                     <div class="post-content">

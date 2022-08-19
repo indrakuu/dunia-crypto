@@ -22,8 +22,7 @@
                                 <div class="avatar">
                                     <img src="{{ $data['logo'] }}" alt="">
                                 </div>
-                                <span class="badge badge-success">Rank #{{ $data2['cmc_rank'] }}</span>
-                                <span class="badge badge-secondary">{{ $data['category'] }}</span>
+                                
                             </div>
 
                             <div class="post-sharer">
@@ -48,11 +47,14 @@
                             <span class="icon">
                                 <span class="mai-information-circle"></span>
                             </span> <a href="#">{{ date('D d M Y', strtotime($data['date_added']) )}}</a>
+                            <span class="badge badge-success">Rank #{{ $data2['cmc_rank'] }}</span>
+                            <span class="badge badge-secondary">{{ $data['category'] }}</span>
                         </div>
                     </div>
                     <div class="post-content">
                       <h4 class="widget-title">Price</h4>
                       <div class="divider"></div>
+                      <div class="table-responsive">
                         <table class="table table-striped table-hover">
                             <thead>
                                 <tr>
@@ -111,6 +113,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                      </div>
                         <p>
                           Market Cap
                             <span class="icon" data-toggle="tooltip" data-placement="bottom" title="The total market value of a cryptocurrency's circulating supply. It is analogous to the free-float capitalization in the stock market.">
